@@ -1,0 +1,35 @@
+{
+  "name": "myexcel",
+  "version": "1.0.0",
+  "description": "My Excel Application ",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeliciRivares/myExcel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Karina Ostrovska <felici.rivares@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FeliciRivares/myExcel/issues"
+  },
+  "homepage": "https://github.com/FeliciRivares/myExcel#readme",
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
